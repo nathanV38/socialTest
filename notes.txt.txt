@@ -693,3 +693,9 @@ le as permet de créer le helper de path sur signout
 applications in facebook:
 http://developers.facebook.com/showcase/apps/
 
+--------------------------------------
+omniauth FCBK:
+si pb SSL:
+http://stackoverflow.com/questions/9095755/facebook-redirect-url-in-ruby-on-rails-open-ssl-error
+
+--------------------------------------
