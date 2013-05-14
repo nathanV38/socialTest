@@ -15,10 +15,21 @@
     <%= f.label :title %><br />
     <%= f.text_field :title %>
   </div>
-  <div class="field">
-    <%= f.label :user_id %><br />
-    <%= f.number_field :user_id %>
-  </div>
+  
+  <% if current_user.blank? %>	
+	  <div class="field">
+		<%= f.label :user_id %><br />
+		<%= f.collection_select :user_id, User.all, :id, :name %>
+	  </div>
+  <% else %>
+	  <div class="field">
+		<%= f.hidden_field :user_id, value: current_user.id %><br />
+		
+	  </div>
+  
+  <% end %>
+  
+  
   <div class="actions">
     <%= f.submit %>
   </div>
