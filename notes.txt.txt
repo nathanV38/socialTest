@@ -698,4 +698,23 @@ omniauth FCBK:
 si pb SSL:
 http://stackoverflow.com/questions/9095755/facebook-redirect-url-in-ruby-on-rails-open-ssl-error
 
+attention:
+dans user mode!, pas jason ne transport nickname pour fcbk, mais name:
+if user.provider == "google_oauth2" #fix pour google : name, pas nickname dans le json!
+			user.name = auth['info']['name']
+		else 
+			user.name = auth["info"]["nickname"]
+		end 
 --------------------------------------
+0. omniauth google
+1. omnitest production heroku
+2. omniauth identity
+3. devise
+4. omniauth+devise
+5. gem jcrop + saas bootstrap
+6. email
+7. fcbk chat 
+8. inner chat/mailing
+9. paiment
+10. captcha at signUp
+11. verification par texto

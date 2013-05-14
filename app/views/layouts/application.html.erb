@@ -16,8 +16,10 @@
 			SignedIn as <%= current_user.name %>!
 			<%= link_to "signOut", signout_path %>
 		<% else %>
+			
 			<%= link_to "signin with Tw", "/auth/twitter" %>
 			<%= link_to "signin with Fcbk", "/auth/facebook" %>
+			<%= link_to "signin with Googl", "/auth/google_oauth2" %>
 		<% end %>
 	
 	
