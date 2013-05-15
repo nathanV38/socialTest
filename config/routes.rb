@@ -58,7 +58,7 @@ OmniTest::Application.routes.draw do
   match	'auth/:provider/callback' => 'sessions#create'
   match 'signout', to: 'sessions#destroy', as: 'signout'
   match 'auth/failure', to: redirect('/')
-  
+  resources :identities
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.

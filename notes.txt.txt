@@ -706,9 +706,15 @@ if user.provider == "google_oauth2" #fix pour google : name, pas nickname dans l
 			user.name = auth["info"]["nickname"]
 		end 
 --------------------------------------
-0. omniauth google
+attention:
+config\initializers\omniauth.rb
+est en ligne sur github!
+laisser les tokens dans 
+--------------------------------------
+-- ok --0. omniauth google
 1. omnitest production heroku
 2. omniauth identity
+21. facebook graph api
 3. devise
 4. omniauth+devise
 5. gem jcrop + saas bootstrap

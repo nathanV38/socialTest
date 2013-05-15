@@ -13,10 +13,12 @@ class User < ActiveRecord::Base
 		user.provider = auth["provider"]
 		user.uid = auth["uid"]
 		
-		if user.provider == "google_oauth2" #fix pour google : name, pas nickname dans le json!
+		if user.provider == "identity" || user.provider == "google_oauth2"  #"google_oauth2"  "identity" #fix pour google : name, pas nickname dans le json!
 			user.name = auth['info']['name']
+			
 		else 
 			user.name = auth["info"]["nickname"]
+			
 		end 
 	end
   end
