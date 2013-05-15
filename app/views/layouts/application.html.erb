@@ -27,7 +27,7 @@
 			
 			</br>
 			<h1>check</h1>
-			<% if current_page?(url_for(:controller => 'identities', :action => 'new')) %>
+			<% if current_page?(url_for(:controller => 'identities', :action => 'new'))	 %>
 				<% else %>  
 					<%= form_tag "/auth/identity/callback" do %>
 					  <div class="field">

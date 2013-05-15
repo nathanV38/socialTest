@@ -711,9 +711,9 @@ config\initializers\omniauth.rb
 est en ligne sur github!
 laisser les tokens dans 
 --------------------------------------
--- ok --0. omniauth google
+-- ok -- 0. omniauth google
 1. omnitest production heroku
-2. omniauth identity
+-- ok -- 2. omniauth identity
 21. facebook graph api
 3. devise
 4. omniauth+devise
@@ -724,3 +724,6 @@ laisser les tokens dans
 9. paiment
 10. captcha at signUp
 11. verification par texto
+
+git push/fetch remote branch:
+http://www.mariopareja.com/blog/archive/2010/01/11/how-to-push-a-new-local-branch-to-a-remote.aspx
