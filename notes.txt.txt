@@ -724,6 +724,21 @@ laisser les tokens dans
 9. paiment
 10. captcha at signUp
 11. verification par texto
+12. model name in url (#63)
 
+http://guides.railsgirls.com/engineyard/
+
+--------------------------------------
 git push/fetch remote branch:
 http://www.mariopareja.com/blog/archive/2010/01/11/how-to-push-a-new-local-branch-to-a-remote.aspx
+1. git push -u origin plugin
+then:
+2. git fetch origin
+3. git checkout --track origin/plugin
+
+checkout:
+git checkout -b iss53 
+(combines:
+1. git branch iss53
+2. git checkout iss53)
+--------------------------------------
