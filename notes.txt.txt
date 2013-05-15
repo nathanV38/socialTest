@@ -714,9 +714,10 @@ laisser les tokens dans
 -- ok -- 0. omniauth google
 1. omnitest production heroku
 -- ok -- 2. omniauth identity
-21. facebook graph api
-3. devise
-4. omniauth+devise
+-- ok -- 21. facebook graph api #testing users!
+23. facebook open graph
+-- ok -- 3. devise #good before_filter authenticate!
+-- ok -- 4. omniauth+devise
 5. gem jcrop + saas bootstrap
 6. email
 7. fcbk chat 
@@ -725,6 +726,7 @@ laisser les tokens dans
 10. captcha at signUp
 11. verification par texto
 12. model name in url (#63)
+13. rails webbozz---
 
 http://guides.railsgirls.com/engineyard/
 
@@ -741,4 +743,9 @@ git checkout -b iss53
 (combines:
 1. git branch iss53
 2. git checkout iss53)
+
+to fetch specific commit:
+1. git checkout master
+2. git cherry-pick 3b4257f0454fc31349a0505c9a883f691fe8889d
+http://blog.mhartl.com/2008/07/01/using-git-to-pull-in-a-patch-from-a-single-commit/
 --------------------------------------
