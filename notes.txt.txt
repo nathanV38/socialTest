@@ -726,7 +726,10 @@ laisser les tokens dans
 10. captcha at signUp
 11. verification par texto
 12. model name in url (#63)
-13. rails webbozz---
+-- ok -- 13. rails webbozz---
+	a. http://prefixr.com/
+	b. already included bootstrap
+14. sprites
 
 http://guides.railsgirls.com/engineyard/
 
@@ -749,3 +752,28 @@ to fetch specific commit:
 2. git cherry-pick 3b4257f0454fc31349a0505c9a883f691fe8889d
 http://blog.mhartl.com/2008/07/01/using-git-to-pull-in-a-patch-from-a-single-commit/
 --------------------------------------
+
+---------------------------------
+@articles = Article.includes(:user)
+
+browser prefixes (-webkit -o -moz -ms)
+http://prefixr.com/
+
+----------------------------------
+hebergements paaS:
+http://www.serviceenligne.fr/hebergement-paas
+
+comparaison serveur/client frameworks:
+http://ocdevel.com/blog/nodejs-frameworks-comparison
+express:
+http://www.atinux.fr/2011/08/31/introduction-a-express-js-partie-1-la-base/
+
+example apps on express:
+http://balloons.io
+https://github.com/gravityonmars/Balloons.IO
+
+---------------------------------
+comparaison less / sass rubyracer, etc:
+http://rubysource.com/twitter-bootstrap-less-and-sass-understanding-your-options-for-rails-3-1/
+
+cf check install gem install libv8 @pc LDN !!!
