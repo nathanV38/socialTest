@@ -777,3 +777,12 @@ comparaison less / sass rubyracer, etc:
 http://rubysource.com/twitter-bootstrap-less-and-sass-understanding-your-options-for-rails-3-1/
 
 cf check install gem install libv8 @pc LDN !!!
+--------------------------------
+bootstrap dans forms:
+https://github.com/potenza/bootstrap_form
+
+--------------------------------
+API market data:
+http://dev.markitondemand.com/
+http://www.highcharts.com/
+--------------------------------
